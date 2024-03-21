@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorign="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.cs" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="darkmode.js"></script>
+
+  </head>
+<body id="home">
+  <!-- <script src="index.js"></script> -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow p-3 
+      fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portofolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- inisializing function script -->
+        <button id="darkModeButton">Aktifkan Dark Mode</button>
+
+        <script>
+          let body = document.body;
+          let darkModeButton = document.getElementById("darkModeButton");
+        
+          darkModeButton.addEventListener("click", function() {
+            body.classList.toggle("dark"); // Toggle the "dark" class on body
+          });
+        </script>
+        
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/karinda.jpg" alt="yosi karinda" width="200"
+      class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Yosi Karinda</h1>
+      <p class="lead"> Student of Mulawarman University</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L18.5,224C36.9,192,74,128,111,96C147.7,64,185,64,222,85.3C258.5,107,295,149,332,144C369.2,139,406,85,443,101.3C480,117,517,203,554,240C590.8,277,628,267,665,229.3C701.5,192,738,128,775,101.3C812.3,75,849,85,886,117.3C923.1,149,960,203,997,192C1033.8,181,1071,107,1108,90.7C1144.6,75,1182,117,1218,138.7C1255.4,160,1292,160,1329,181.3C1366.2,203,1403,245,1422,266.7L1440,288L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center ">
+          <div class="col-md-4">
+            <p>you can call me "Karin" when I write this I am 19 years old and on March 24 this year I will
+              I am currently a 4th semester student. I have a great interest in art</p>
+          </div>
+          <div class="col-md-4">
+            <p>I was born and raised in the city of Samarinda, even though I was born and raised in this city, I lived in several cities in East Kalimantan to continue my education.</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,64L30,80C60,96,120,128,180,138.7C240,149,300,139,360,117.3C420,96,480,64,540,53.3C600,43,660,53,720,69.3C780,85,840,107,900,138.7C960,171,1020,213,1080,197.3C1140,181,1200,107,1260,80C1320,53,1380,75,1410,85.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+      
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Skill -->
+    <section id="skill">
+      <div class="container">
+        <div class="row text-center mb-3">
+         <div class="col">
+            <h2>My Skill</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/ngangkat mie.jpeg" class="card-img-top" alt="skill1">
+              <div class="card-body">
+                <p class="card-text">Cooking is a hobby that I continue to enjoy practicing and trying new things in the world of the kitchen</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/menggambar.jpeg" class="card-img-top" alt="skill2">
+              <div class="card-body">
+                <p class="card-text">Drawing is one of the skills that I have pursued since childhood, I won a drawing competition at the age of 7 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/nulis.jpeg" class="card-img-top" alt="skill3">
+              <div class="card-body">
+                <p class="card-text">Handwriting is one of my skills, this is one of my hobbies which brings many jobs such as writing diplomas and certificates</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,0L30,37.3C60,75,120,149,180,176C240,203,300,181,360,160C420,139,480,117,540,106.7C600,96,660,96,720,80C780,64,840,32,900,42.7C960,53,1020,107,1080,138.7C1140,171,1200,181,1260,160C1320,139,1380,85,1410,58.7L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+  
+    <!-- Akhir Project -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Hubungi Saya</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-6">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email </label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="buttonKirim">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#9FA6B2" fill-opacity="1" d="M0,192L30,186.7C60,181,120,171,180,149.3C240,128,300,96,360,101.3C420,107,480,149,540,149.3C600,149,660,107,720,112C780,117,840,171,900,176C960,181,1020,139,1080,138.7C1140,139,1200,181,1260,192C1320,203,1380,181,1410,170.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+      </svg>
+    </section>
+    
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent default form submission
+    
+      // Simulate form submission (replace with actual submission logic)
+      alert('Terima kasih, pesan Anda telah terkirim!');
+    });
+    </script>
+    
+
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white text-center p-1">
+      <p>Handcrafted with love by <a href="https://www.instagram.com/_yosikarinda?igsh=MTQxeGk0bmVubDFvOQ==" class="text-white fw-bold">@_yosi karinda</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+</body>
+</html>

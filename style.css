@@ -1,0 +1,33 @@
+ body {
+    min-height:3000px;
+
+ }
+
+body {
+    background-color: white;
+    color: black;
+ }
+
+ .dark {
+    background-color: #222;
+    color: #fff;
+  }
+  
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.bg-secondary {
+    background-color: #9FA6B2 !important;
+  }
+
